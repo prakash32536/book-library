@@ -1,11 +1,19 @@
 import React from 'react'
-import { StyledH1 } from './Styled';
+import { StyledH1, StyledCard, StyledPara, StyledIconBox  } from './Styled';
+import {Box} from '@mui/material';
 
-const Card = () => {
+const Card = (props) => {
+    console.log('props', props.data);
   return (
-    <div>
-      <StyledH1>Hello this is my card component</StyledH1>
-    </div>
+    <StyledCard>
+      <StyledIconBox>
+      <StyledH1>{props.data.title}</StyledH1>
+      <Box>
+        {props.data.icon}
+      </Box>
+      </StyledIconBox>
+      <StyledPara>{props.data.description}</StyledPara>
+    </StyledCard>
   )
 }
 
