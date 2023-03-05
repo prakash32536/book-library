@@ -7,13 +7,15 @@ export const datas = [
     id: 1,
     title: "Add a Book",
     description: 'Add your book page and information',
-    icon: <AddIcon />
+    icon: <AddIcon />,
+    route: "/add-books"
   },
   {
     id: 2,
     title: "View a Book",
     description: "View your book page and description",
-    icon: <PreviewIcon />
+    icon: <PreviewIcon />,
+    route: "/view-book"
   },
   {
     id: 3,
