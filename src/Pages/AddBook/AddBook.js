@@ -1,9 +1,12 @@
 import React,{useState} from 'react';
+import axios from 'axios';
+import {useNavigate} from 'react-router-dom';
 import Header from '../../Components/Header';
 import { StyledBox, StyledTextField } from './Styled';
 import { Typography, Button } from '@mui/material';
 
 const AddBook = () => {
+  const navigate = useNavigate();
   // Initialize your state using useState to handle component data
 
   const [formData, setFormData] = useState({});
@@ -19,12 +22,29 @@ const AddBook = () => {
       [name]: value
     }))
    }
+
+  //  handle form submission and api calling
+  // async and await or Promise
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    // integration of api
+    await axios.post(`http://localhost:8000/save-book-data`, formData).then((res) => {
+      if(res) {
+        navigate('/view-book');
+      }
+    }).catch(error => {
+      console.log('error', error);
+    })
+  }
+   
   return (
     <div>
       <Header />
       <StyledBox>
         <Typography variant="h4">Add Your Book</Typography>
-        <form>
+        <form onSubmit={handleSubmit}>
           <StyledTextField  label="Book Id" type="text" onChange={handleChange}  name="book_id" variant="outlined"/>
           <StyledTextField  label="Book Name" type="text" onChange={handleChange} name="book_name" variant="outlined"/>
           <StyledTextField  label="Book Description" type="text" onChange={handleChange} name="book_description" variant="outlined"/>
