@@ -1,57 +1,20 @@
 {
   "save-book-data": [
     {
-      "id": 1,
-      "formData": {
-        "author_name": "Tom Crooks",
-        "book_description": "This book is awesome",
-        "book_id": 1,
-        "book_name": "The glance",
-        "cover_img": "ncsbcsjcbdsjcbdsjccdsc"
-      }
-    },
-    {
-      "book_id": "cvxashcbsa",
-      "book_name": " csnc",
-      "book_description": " csadnc",
-      "author_name": " cadsnca",
-      "cover_img": " cnamd",
+      "book_id": "265226322",
+      "book_name": "Rich dad poor dad updates",
+      "book_description": "This is the best book for finance education and It helps you to learn all the requiered knowledge of finanace.",
+      "author_name": "Tom Brrok",
+      "cover_img": "https://fakeimg.pl/350x200/?text=Hello",
       "id": 2
     },
     {
-      "book_id": "877622",
-      "book_name": "",
-      "book_description": "The world arround",
+      "book_id": "6746373233",
+      "book_name": "The turborator",
+      "book_description": "This book is of actions",
       "author_name": "Tom Crooks",
-      "cover_img": "https:pixcel/122",
+      "cover_img": "https://fakeimg.pl/350x200/?text=World&font=lobste",
       "id": 3
-    },
-    {
-      "book_id": "dscdsc",
-      "book_name": "dscdsc",
-      "book_description": "dscsd",
-      "author_name": "dscdscd",
-      "cover_img": "dscsd",
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "book_id": "cdbhdc",
-      "book_name": " dasnhcd",
-      "book_description": "asdvbhca",
-      "author_name": "a djcn",
-      "cover_img": " asjc",
-      "id": 6
-    },
-    {
-      "book_id": "chvascs",
-      "book_name": "testing useefect",
-      "book_description": "d scnhdscsd",
-      "author_name": "dsn cds",
-      "cover_img": "c sdancw",
-      "id": 7
     }
   ]
 }
