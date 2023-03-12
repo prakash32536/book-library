@@ -28,6 +28,7 @@ useEffect(() => {
 
   return (
     <>
+    <Header />
     <Grid container>
       {book?.length > 0 && 
        book?.map((data, index) => {

@@ -32,7 +32,7 @@ const AddBook = () => {
     // integration of api
     await axios.post(`http://localhost:8000/save-book-data`, formData).then((res) => {
       if(res) {
-        navigate('/view-book');
+        navigate('/');
       }
     }).catch(error => {
       console.log('error', error);
