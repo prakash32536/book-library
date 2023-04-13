@@ -5,9 +5,11 @@ import {Grid} from '@mui/material';
 import {datas} from './data';
 import { StyledGridItem } from './Styled';
 
+
 const Home = () => {
    return (
     <div>
+       
         <Header />
         <Grid container sx={{justifyContent: 'space-between'}}>
          {

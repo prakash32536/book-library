@@ -1,28 +1,19 @@
 {
-  "save-book-data": [
+  "posts": [
     {
-      "book_id": "265226322",
-      "book_name": "Rich dad poor dad updates",
-      "book_description": "This is the best book for finance education and It helps you to learn all the requiered knowledge of finanace.",
-      "author_name": "Tom Brrok",
-      "cover_img": "https://fakeimg.pl/350x200/?text=Hello",
-      "id": 2
-    },
-    {
-      "book_id": "265226323",
-      "book_name": "Rich dad poor dad updates",
-      "book_description": "This is the best book for finance education and It helps you to learn all the requiered knowledge of finanace.",
-      "author_name": "Tom Brrok",
-      "cover_img": "https://fakeimg.pl/350x200/?text=Hello",
-      "id": 3
-    },
-    {
-      "book_id": "265226324",
-      "book_name": "Rich dad poor dad updates",
-      "book_description": "This is the best book for finance education and It helps you to learn all the requiered knowledge of finanace.",
-      "author_name": "Tom Brrok",
-      "cover_img": "https://fakeimg.pl/350x200/?text=Hello",
-      "id": 4
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
